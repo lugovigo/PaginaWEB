@@ -1,0 +1,5 @@
+// Adicionando um evento simples para quando o formulário for enviado.
+document.querySelector('form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Impede o envio real do formulário (para fins de teste).
+    alert('Formulário enviado com sucesso!');
+});
